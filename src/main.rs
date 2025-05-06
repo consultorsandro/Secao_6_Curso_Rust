@@ -1,9 +1,15 @@
 fn main() {
-    //Class 107
+    //Class 108
+    let person = String::from("Sandro");
+    let genius = person.clone(); // person is copied to genius, both are valid.
+    print!("This is {}", person);
+}
+
+ /* Class 107
     let person = String::from("Sandro");
     
     drop(person);// person now is invalid, deleted from memory
-}
+*/
 /*
     //Class 106
     let person = String::from("Sandro");
