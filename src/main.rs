@@ -1,11 +1,22 @@
 fn main() {
-    // Class 109
+    // Class 110
     let my_stack_value = 2;
-    let _my_integer_reference = &my_stack_value; // my_integer_reference is a reference to my_stack_value
+    let my_integer_reference = &my_stack_value; // my_integer_reference is a reference to my_stack_value
+    // my_integer_reference is a reference to my_stack_value (*) is optional
+    println!("{}", *my_integer_reference);
 
     let my_heap_value = String::from("Sandro");
-    let _my_heap_reference = &my_heap_value;
+    let my_heap_reference = &my_heap_value;
+    //Rust cacth the value automatically for all references
+    println!("{}", my_heap_reference);
 }
+/*  Class 109
+    let my_stack_value = 2;
+    let my_integer_reference = &my_stack_value; // my_integer_reference is a reference to my_stack_value
+
+    let my_heap_value = String::from("Sandro");
+    let my_heap_reference = &my_heap_value;
+*/
 
 /*
 Class 108
