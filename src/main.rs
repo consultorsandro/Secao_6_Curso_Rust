@@ -1,5 +1,40 @@
 fn main() {
-    // Class 113
+    //Class 118 Project
+    let is_concert = true;
+    let is_event = is_concert;
+    println!("{} , {}", is_concert, is_event);
+
+    let suchi = "Salmon";
+    let dinner = suchi;
+    println!("{} , {}", suchi, dinner);
+
+    let sushi = String::from("Salmon");
+    let dinner = sushi;
+    //println!("{} , {}", sushi, dinner);
+
+    // Atribui o valor de dinner a sushi, mas sushi não é mais válido
+    let fish = eat_meal(dinner);
+    println!("{},", fish);
+
+}
+
+    fn eat_meal(mut meal: String) -> String { // Class 118 Project fora do main
+        meal.clear(); // Limpa o valor de meal
+        meal
+    }
+
+    //Class 115
+    let cake = bake_cake();
+    println!(" I now have a {}.", cake);
+}
+fn bake_cake() -> String {
+    String::from("Chocolate Mouse")
+}
+
+*/
+
+/*
+   // Class 113
     let burger = String::from("Cheeseburger");
     add_fries(burger);
 }
@@ -8,6 +43,7 @@ fn main() {
         meal.push_str(" and fries");
         println!("{}", meal);
     }
+*/
 
 /*  Class 112
     let ice_cream = "Cookies and Cream";
