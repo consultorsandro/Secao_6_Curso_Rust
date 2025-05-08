@@ -1,10 +1,20 @@
 fn main() {
-    // Class 112
+    // Class 113
+    let burger = String::from("Cheeseburger");
+    add_fries(burger);
+}
+    //Class 113 Fora do main
+    fn add_fries(mut meal: String) { 
+        meal.push_str(" and fries");
+        println!("{}", meal);
+    }
+
+/*  Class 112
     let ice_cream = "Cookies and Cream";
     let dessert = ice_cream;
     println!("{}, {}", ice_cream, dessert);
-    
-}
+*/
+
     /* Class 110
     let my_stack_value = 2;
     let my_integer_reference = &my_stack_value; // my_integer_reference is a reference to my_stack_value
