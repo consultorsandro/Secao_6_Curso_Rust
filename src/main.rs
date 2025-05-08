@@ -1,5 +1,11 @@
 fn main() {
-    // Class 110
+    // Class 112
+    let ice_cream = "Cookies and Cream";
+    let dessert = ice_cream;
+    println!("{}, {}", ice_cream, dessert);
+    
+}
+    /* Class 110
     let my_stack_value = 2;
     let my_integer_reference = &my_stack_value; // my_integer_reference is a reference to my_stack_value
     // my_integer_reference is a reference to my_stack_value (*) is optional
@@ -9,7 +15,7 @@ fn main() {
     let my_heap_reference = &my_heap_value;
     //Rust cacth the value automatically for all references
     println!("{}", my_heap_reference);
-}
+     */
 /*  Class 109
     let my_stack_value = 2;
     let my_integer_reference = &my_stack_value; // my_integer_reference is a reference to my_stack_value
